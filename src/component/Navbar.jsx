@@ -6,7 +6,7 @@ const Navbar = () => {
   const navigate = useNavigate()
   return (
     <div class='bg-[url(assets\bg-sidebar-mobile.svg)] bg-cover h-39 w-full'>
-      <div class='bg-[url(assets\bg-sidebar-mobile.svg)] bg-cover h-39 w-full'>
+      <div class='bg-red-500 bg-cover h-39 w-full'>
         <ul class='flex justify-center  items-center pt-6 '>
           <NavLink to='/' class='px-3 py-1.5 ' ><li class='text-sm font-medium border-1 rounded-full px-3 py-1.5 text-[var(--neutralBlue100)] mr-4'
              >1</li></NavLink>
