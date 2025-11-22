@@ -5,7 +5,7 @@
   --primary-Blue-300: hsl(228, 100%, 84%);
   --primaryBlue200: hsl(206, 94%, 87%);
   --primaryRed500: hsl(354, 84%, 57%);
-
+  
   --neutralBlue50: hsl(231, 100%, 99%);
   --neutralBlue100: hsl(218, 100%, 97%);
   --Grey500: hsl(231, 11%, 63%);
@@ -13,7 +13,7 @@
   --White: hsl(0, 100%, 100%);
 }
 body{
-  background-color:  hsl(218, 100%, 97%) ;
+  background-color:hsl(218, 100%, 97%);
 }
 * {
   min-width: 0;
@@ -39,10 +39,29 @@ input[type='text']{
   border: solid 1px;
   border-radius: 4px;
   width: 100%;
-  padding: 6px 12px;
   border-color: hsl(231, 11%, 63%);
   box-shadow: 0px 0px 0.5px hsl(231, 11%, 63%);;
 }
-form{
-  box-shadow: 0px 2px 12px hsl(231, 11%, 63%);;
+input[type='radio']{
+  -webkit-appearance: none;
+  appearance: none;
+  height: 12px;
+  width: 100%;
+  background-image: url(rerer);
+}
+input[type="radio" i] {
+    background-color: transparent;
+    cursor: default;
+    appearance:none;
+    box-sizing: border-box;
+    border: solid 1px hsl(231, 11%, 63%);
+    outline: none;
+    border-radius: 4px;
+    padding: 0px;
+      background-image: url(rerer);
+}
+input[type="radio" i]:focus{
+  color: red;
+  background-color: red;
+  z-index: -1;
 }

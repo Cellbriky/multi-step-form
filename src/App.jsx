@@ -7,6 +7,7 @@ import Step3 from './pages/Step3'
 import Step2 from './pages/Step2'
 import Step1 from './pages/Step1'
 import Step4 from './pages/Step4'
+import vite from '/vite.svg'
 function App() {
   const router = createBrowserRouter(
     createRoutesFromElements(
@@ -18,11 +19,14 @@ function App() {
       </Route>
     )
   )
- 
+  
   return (
     <>
       <div>
         <RouterProvider router={router}/>
+        <div style={{backgroundImage: `url(/vite.svg)`}}>
+          <h1>ererfgsrr</h1>
+        </div>
       </div>
     </>
   )
