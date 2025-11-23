@@ -14,7 +14,6 @@ const Navbar = () => {
           <NavLink to='/step3'><li className='click' class='text-sm font-medium px-3 py-1.5 border-1 rounded-full text-[var(--neutralBlue100)] mr-4' >3</li></NavLink>
           <NavLink to='/step4'><li className='click' class='text-sm font-medium px-3 py-1.5 border-1 rounded-full text-[var(--neutralBlue100)]' >4</li></NavLink>
         </ul>
-        <button onClick={() => navigate('/step4', { replace: true })}>Go to About (replace)</button> 
       </div>
     </div>
   )

@@ -75,7 +75,7 @@ const Step2 = () => {
               <input id='pro'  type='radio' class='relative' className={styles.yearly_radio}/> 
             </div>
           </div>
-          <div class=' flex items-center justify-center py-4 bg-[var(--neutralBlue100)]' >
+          <div class=' flex items-center justify-center py-4 bg-[var(--primaryBlue200)]' >
             <div class='flex items-center justify-center'>
               <label for='monthly' class='text-sm font-medium'>Monthly</label>
             </div>
