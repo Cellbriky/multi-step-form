@@ -24,9 +24,6 @@ function App() {
     <>
       <div>
         <RouterProvider router={router}/>
-        <div style={{backgroundImage: `url(/vite.svg)`}}>
-          <h1>ererfgsrr</h1>
-        </div>
       </div>
     </>
   )

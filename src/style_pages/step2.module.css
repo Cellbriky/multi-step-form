@@ -1,0 +1,70 @@
+
+.yearly_radio{
+  background-color: transparent;
+  cursor: default;
+  appearance:none;
+  box-sizing: border-box;
+  border: solid 1px hsl(231, 11%, 63%);
+  outline: none;
+  border-radius: 8px;
+  padding: 0px; 
+  -webkit-appearance: none;
+  appearance: none;
+  height: 90px;
+  width: 100%;
+}
+.yearly_radio:focus {
+  outline: solid 1px hsl(243, 100%, 62%);
+  background-color:  hsl(218, 100%, 97%);
+}
+
+.toggle{
+  position: relative;
+  -webkit-appearance: none;
+  appearance: none;
+  height: 10px;
+  width: 14px;
+
+}
+.toggle:focus{
+  appearance: none;
+}
+.toggle:focus::before{
+  appearance: none;
+  content: '';
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 10px;
+  width: 10px;
+  left: 2px;
+  right: -2px;
+  position: absolute;
+  background-color: white;
+  border: none;
+  border-radius: 50%;
+  transition:  all 0.2s ease;
+}
+
+.toggle:checked{
+ position: relative;
+  -webkit-appearance: none;
+  appearance: none;
+  height: 10px;
+  width: 14px;
+}
+.toggle:checked::before{
+  content: '';
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 10px;
+  width: 10px;
+  left: 2px;
+  right: -2px;
+  position: absolute;
+  background-color: rgb(192, 0, 0);
+  border: none;
+  border-radius: 50%;
+  transition:  all 0.2s ease;
+}
