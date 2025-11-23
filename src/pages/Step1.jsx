@@ -26,7 +26,7 @@ const Step1 = () => {
   }
   return (
     <div class='h-full bg-[var(--primaryBlue200)]'> 
-      <div class='relative px-4 bottom-15 h-full'>
+      <div class='relative px-4 bottom-13 h-full'>
         <div class='flex  flex-col justify-between h-full bg-[var(--White)] h-full w-full border-0 rounded-xl px-6 py-8' >
             <h1 class='text-2xl font-bold text-[var(--primaryBlue950)] mb-2'>Personal Info</h1>
             <div class='block'>
