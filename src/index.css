@@ -12,9 +12,7 @@
   --Purple200: hsl(229, 24%, 87%);
   --White: hsl(0, 100%, 100%);
 }
-body{
-  background-color: hsl(206, 94%, 87%);
-}
+
 * {
   min-width: 0;
   box-sizing: border-box;
